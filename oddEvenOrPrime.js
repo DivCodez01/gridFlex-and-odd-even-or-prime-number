@@ -1,3 +1,5 @@
+document.title = "grid & flex width odd, even or prime";
+
 const checkNumber = (function () {
     return function (num) {
         if (num < 0 || Number.isNaN(num) || typeof num == "undefined") {
@@ -16,4 +18,4 @@ const checkNumber = (function () {
         return "This is Prime number"
     }
 })();
-checkNumber()
+checkNumber();
